@@ -1,0 +1,345 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        tools:context="com.example.textview.TextviewAct" >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email|none"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone|none"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web|none"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+			android:ellipsize="marquee"
+			android:focusableInTouchMode="true"
+			android:focusable="true"
+			android:marqueeRepeatLimit="marquee_forever"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ic_launcher"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_launcher"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_launcher"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt19"
+            android:background="#00FF00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textStyle="italic"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textStyle="bold"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textStyle="normal"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:shadowColor="#000000"
+		      android:shadowRadius="3.0"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textScaleX="2.0"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textColor="#FF0000"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:singleLine="true"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+		      android:textSize="20dip"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:rotation="180"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotationY="180"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:rotation="180"
+            android:rotationY="180"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:rotation="90"
+            android:text="android:rotation=90" />
+
+        <TextView
+            android:id="@+id/txt33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+  			style="@style/NormalText"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/txt49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+    </LinearLayout>
+
+</ScrollView>
